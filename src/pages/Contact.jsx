@@ -99,7 +99,7 @@ const Contact = () => {
             href="https://www.whatsapp.com/channel/0029VaKFZ0e0bIdpmuDApI2t"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-[333px] h-[59px] bg-[#faa41a] text-white text-[15px] font-semibold rounded-[16px] flex items-center justify-center hover:bg-opacity-90 transition-all duration-300 shadow-md mx-auto lg:mx-0 mt-6"
+            className="w-full max-w-[333px] h-[59px] bg-[#faa41a] text-white text-[15px] font-semibold rounded-[16px] flex items-center justify-center hover:bg-opacity-90 transition-all duration-300 shadow-md mx-auto lg:mx-0 mt-6"
           >
             Also Join Our WhatsApp Channel
           </a>

@@ -52,10 +52,10 @@ const Counter = ({ end, label, suffix = '+', icon }) => {
       <div className="mb-2 text-[#CC7E00]">
         {icon}
       </div>
-      <div className="text-[#CC7E00] text-4xl font-semibold mb-1">
+      <div className="text-[#CC7E00] text-3xl max-[403px]:text-2xl md:text-4xl font-semibold mb-1">
         {count}{suffix}
       </div>
-      <div className="text-[#CC7E00] text-sm font-medium">{label}</div>
+      <div className="text-[#CC7E00] text-xs max-[403px]:text-[10px] md:text-sm font-medium">{label}</div>
     </div>
   );
 };
@@ -153,7 +153,7 @@ const Home = () => {
 
       {/* Hero Section */}
       <div
-        className="relative mx-auto bg-cover bg-center bg-no-repeat flex items-center rounded-[20px] overflow-hidden h-[850px] md:h-[642px] w-full max-w-[1183px]"
+        className="relative mx-auto bg-cover bg-center bg-no-repeat flex items-center rounded-[20px] overflow-hidden h-[850px] max-[403px]:h-[1050px] md:h-[642px] w-full max-w-[1183px]"
         style={{
           backgroundImage: `url(${homeBg})`
         }}
@@ -191,7 +191,7 @@ const Home = () => {
         {/* Counter Section */}
         <div className="absolute bottom-0 right-0 bg-white rounded-tl-[50px] flex gap-12 items-center justify-center shadow-lg hidden md:flex w-[590px] h-[172px]">
           <Counter
-            
+
             end={4060}
             label="Student Members"
             suffix="+"
@@ -218,11 +218,11 @@ const Home = () => {
         </div>
 
         {/* Mobile Counter Section */}
-        <div className="absolute bottom-0 w-full bg-white py-8 flex flex-wrap justify-around gap-4 md:hidden">
-          <Counter end={4060} label="Student Members" suffix="+" icon={<img src={peopleIcon} alt="Student Members" className="w-8 h-8" />} />
-          <Counter end={56} label="Student Chapter" suffix="+" icon={<img src={globeIcon} alt="Student Chapter" className="w-8 h-8" />} />
-          <Counter end={37} label="Events" suffix="+" icon={<img src={dateIcon} alt="Events" className="w-8 h-8" />} />
-          <Counter end={2} label="Awards" suffix="" icon={<img src={awardIcon} alt="Awards" className="w-8 h-8" />} />
+        <div className="absolute bottom-0 w-full bg-white py-8 max-[403px]:py-4 flex flex-wrap justify-around gap-4 max-[403px]:gap-2 md:hidden">
+          <Counter end={4060} label="Student Members" suffix="+" icon={<img src={peopleIcon} alt="Student Members" className="w-8 h-8 max-[403px]:w-6 max-[403px]:h-6" />} />
+          <Counter end={56} label="Student Chapter" suffix="+" icon={<img src={globeIcon} alt="Student Chapter" className="w-8 h-8 max-[403px]:w-6 max-[403px]:h-6" />} />
+          <Counter end={37} label="Events" suffix="+" icon={<img src={dateIcon} alt="Events" className="w-8 h-8 max-[403px]:w-6 max-[403px]:h-6" />} />
+          <Counter end={2} label="Awards" suffix="" icon={<img src={awardIcon} alt="Awards" className="w-8 h-8 max-[403px]:w-6 max-[403px]:h-6" />} />
         </div>
 
 

@@ -7,7 +7,7 @@ import linkedinIcon from '../assets/icons/linkdin.svg';
 
 const Footer = () => {
   return (
-    <footer className="py-12 bg-gradient-to-b from-[#FFFCF6] to-[#FAA41A] border-t border-gray-200 font-poppins">
+    <footer className="py-12 bg-gradient-to-b from-white to-[#FAA41A] font-poppins">
       <div className="container mx-auto px-4 md:px-12">
         <div className="flex flex-col lg:flex-row justify-between gap-8 md:gap-12">
 
