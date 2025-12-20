@@ -152,80 +152,82 @@ const Home = () => {
       </div>
 
       {/* Hero Section */}
-      <div
-        className="relative mx-auto bg-cover bg-center bg-no-repeat flex items-center rounded-[20px] overflow-hidden h-[850px] max-[403px]:h-[1050px] md:h-[642px] w-full max-w-[1183px]"
-        style={{
-          backgroundImage: `url(${homeBg})`
-        }}
-      >
-        <div className="absolute inset-0 bg-black opacity-40"></div>
+      <div className="container mx-auto px-4 md:px-12">
+        <div
+          className="relative bg-cover bg-center bg-no-repeat flex items-center rounded-[20px] overflow-hidden h-[850px] max-[403px]:h-[850px] md:h-[642px] w-full"
+          style={{
+            backgroundImage: `url(${homeBg})`
+          }}
+        >
+          <div className="absolute inset-0 bg-black opacity-40"></div>
 
-        <div className="container mx-auto px-6 md:px-12 relative z-10 flex flex-col justify-center h-full">
-          <div className="max-w-3xl">
-            <h1 className="text-[32px] md:text-[50px] font-semibold text-white leading-tight mb-4">
-              Belong Where Technology Innovators Thrive
-            </h1>
-            <p className="text-[16px] md:text-[18px] font-medium text-white mb-8 max-w-2xl">
-              Join our vibrant community of volunteers making a difference in technology and education across Kerala.
-            </p>
+          <div className="relative z-10 flex flex-col justify-center h-full w-full px-6 md:px-16">
+            <div className="max-w-3xl">
+              <h1 className="text-[32px] md:text-[50px] font-semibold text-white leading-tight mb-4">
+                Belong Where Technology Innovators Thrive
+              </h1>
+              <p className="text-[16px] md:text-[18px] font-medium text-white mb-8 max-w-2xl">
+                Join our vibrant community of volunteers making a difference in technology and education across Kerala.
+              </p>
 
-            <div className="flex flex-wrap gap-4">
-              <a
-                href="https://www.computer.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-[141px] h-[45px] bg-white bg-opacity-72 rounded-[27px] flex items-center justify-center text-[20px] font-normal text-black hover:bg-[#CC7E00] hover:text-white transition-all duration-300"
-              >
-                Join Us
-              </a>
-              <Link
-                to="/about"
-                className="w-[141px] h-[45px] bg-white bg-opacity-72 rounded-[27px] flex items-center justify-center text-[20px] font-normal text-black hover:bg-[#CC7E00] hover:text-white transition-all duration-300"
-              >
-                Learn more
-              </Link>
+              <div className="flex flex-wrap gap-4">
+                <a
+                  href="https://www.computer.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-[141px] h-[45px] bg-white bg-opacity-72 rounded-[27px] flex items-center justify-center text-[20px] font-normal text-black hover:bg-[#CC7E00] hover:text-white transition-all duration-300"
+                >
+                  Join Us
+                </a>
+                <Link
+                  to="/about"
+                  className="w-[141px] h-[45px] bg-white bg-opacity-72 rounded-[27px] flex items-center justify-center text-[20px] font-normal text-black hover:bg-[#CC7E00] hover:text-white transition-all duration-300"
+                >
+                  Learn more
+                </Link>
+              </div>
             </div>
           </div>
+
+          {/* Counter Section */}
+          <div className="absolute bottom-0 right-0 bg-white rounded-tl-[50px] flex gap-12 items-center justify-center shadow-lg hidden md:flex w-[590px] h-[172px]">
+            <Counter
+
+              end={4060}
+              label="Student Members"
+              suffix="+"
+              icon={<img src={globeIcon} alt="Student Members" className="w-[40px] h-[40px]" />}
+            />
+            <Counter
+              end={56}
+              label="Student Chapter"
+              suffix="+"
+              icon={<img src={peopleIcon} alt="Student Chapter" className="w-[52px] h-[36px]" />}
+            />
+            <Counter
+              end={37}
+              label="Events"
+              suffix="+"
+              icon={<img src={dateIcon} alt="Events" className="w-[35px] h-[41px]" />}
+            />
+            <Counter
+              end={2}
+              label="Awards"
+              suffix=""
+              icon={<img src={awardIcon} alt="Awards" className="w-[34px] h-[41px]" />}
+            />
+          </div>
+
+          {/* Mobile Counter Section */}
+          <div className="absolute bottom-0 w-full bg-white py-8 max-[403px]:py-4 flex flex-wrap justify-around gap-4 max-[403px]:gap-2 md:hidden">
+            <Counter end={4060} label="Student Members" suffix="+" icon={<img src={peopleIcon} alt="Student Members" className="w-8 h-8 max-[403px]:w-6 max-[403px]:h-6" />} />
+            <Counter end={56} label="Student Chapter" suffix="+" icon={<img src={globeIcon} alt="Student Chapter" className="w-8 h-8 max-[403px]:w-6 max-[403px]:h-6" />} />
+            <Counter end={37} label="Events" suffix="+" icon={<img src={dateIcon} alt="Events" className="w-8 h-8 max-[403px]:w-6 max-[403px]:h-6" />} />
+            <Counter end={2} label="Awards" suffix="" icon={<img src={awardIcon} alt="Awards" className="w-8 h-8 max-[403px]:w-6 max-[403px]:h-6" />} />
+          </div>
+
+
         </div>
-
-        {/* Counter Section */}
-        <div className="absolute bottom-0 right-0 bg-white rounded-tl-[50px] flex gap-12 items-center justify-center shadow-lg hidden md:flex w-[590px] h-[172px]">
-          <Counter
-
-            end={4060}
-            label="Student Members"
-            suffix="+"
-            icon={<img src={globeIcon} alt="Student Members" className="w-[40px] h-[40px]" />}
-          />
-          <Counter
-            end={56}
-            label="Student Chapter"
-            suffix="+"
-            icon={<img src={peopleIcon} alt="Student Chapter" className="w-[52px] h-[36px]" />}
-          />
-          <Counter
-            end={37}
-            label="Events"
-            suffix="+"
-            icon={<img src={dateIcon} alt="Events" className="w-[35px] h-[41px]" />}
-          />
-          <Counter
-            end={2}
-            label="Awards"
-            suffix=""
-            icon={<img src={awardIcon} alt="Awards" className="w-[34px] h-[41px]" />}
-          />
-        </div>
-
-        {/* Mobile Counter Section */}
-        <div className="absolute bottom-0 w-full bg-white py-8 max-[403px]:py-4 flex flex-wrap justify-around gap-4 max-[403px]:gap-2 md:hidden">
-          <Counter end={4060} label="Student Members" suffix="+" icon={<img src={peopleIcon} alt="Student Members" className="w-8 h-8 max-[403px]:w-6 max-[403px]:h-6" />} />
-          <Counter end={56} label="Student Chapter" suffix="+" icon={<img src={globeIcon} alt="Student Chapter" className="w-8 h-8 max-[403px]:w-6 max-[403px]:h-6" />} />
-          <Counter end={37} label="Events" suffix="+" icon={<img src={dateIcon} alt="Events" className="w-8 h-8 max-[403px]:w-6 max-[403px]:h-6" />} />
-          <Counter end={2} label="Awards" suffix="" icon={<img src={awardIcon} alt="Awards" className="w-8 h-8 max-[403px]:w-6 max-[403px]:h-6" />} />
-        </div>
-
-
       </div>
 
       {/* About Section */}

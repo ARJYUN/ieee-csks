@@ -3,7 +3,7 @@ import teamImg from '../assets/images/team.png';
 import proExecomImg from '../assets/images/professional-execom.png';
 import sltImg from '../assets/images/slt.png';
 import gsacImg from '../assets/images/gsac.png';
-import volunteerImg from '../assets/images/volunteer-team.png';
+import volunteerImg from '../assets/images/volunteer-team.jpg';
 
 // Legacy Members
 import DrDeepthi from '../assets/images/execom-mem/DrDeepthi.png';
@@ -127,9 +127,9 @@ const About = () => {
             ))}
           </div>
           <div className="flex justify-center">
-            <button className="w-[141px] h-[45px] border border-[#faa41a] rounded-[27px] flex items-center justify-center text-[15px] text-black hover:bg-[#faa41a] hover:text-white transition-all duration-300">
+            {/* <button className="w-[141px] h-[45px] border border-[#faa41a] rounded-[27px] flex items-center justify-center text-[15px] text-black hover:bg-[#faa41a] hover:text-white transition-all duration-300">
               View All
-            </button>
+            </button> */}
           </div>
         </div>
 
@@ -162,9 +162,9 @@ const About = () => {
             ))}
           </div>
           <div className="flex justify-center">
-            <button className="w-[141px] h-[45px] border border-[#faa41a] rounded-[27px] flex items-center justify-center text-[15px] text-black hover:bg-[#faa41a] hover:text-white transition-all duration-300">
+            {/* <button className="w-[141px] h-[45px] border border-[#faa41a] rounded-[27px] flex items-center justify-center text-[15px] text-black hover:bg-[#faa41a] hover:text-white transition-all duration-300">
               View All
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
