@@ -16,7 +16,6 @@ import Nathan from '../assets/images/execom-mem/Nathan.png';
 import Devanarayanan from '../assets/images/execom-mem/Devanarayanan.png';
 import Chethana from '../assets/images/execom-mem/Chethana.png';
 import Gokul from '../assets/images/execom-mem/Gokul.png';
-import Bhadra from '../assets/images/execom-mem/Bhadra.png';
 
 const About = () => {
   return (
