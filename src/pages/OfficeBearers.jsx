@@ -2,12 +2,12 @@ import React from 'react';
 
 // Import Images
 import sarjuImg from '../assets/images/execom-mem/SARJU.png';
-import mahalingamImg from '../assets/images/execom-mem/mahalingam.png';
+import mahalingamImg from '../assets/images/execom-mem/Mahalingam.png';
 import VishnuRajanImg from '../assets/images/execom-mem/VishnuRajan.png';
 import nayanaImg from '../assets/images/execom-mem/nayana.png';
 import deepthiImg from '../assets/images/execom-mem/DrDeepthiC.png';
 import vishnuImg from '../assets/images/execom-mem/VISHNUKUMAR.png';
-import vaishakhImg from '../assets/images/execom-mem/vaishakh.png';
+import vaishakhImg from '../assets/images/execom-mem/Vaishakh.png';
 import satheeshImg from '../assets/images/execom-mem/SATHEESH.png';
 import devanarayananImg from '../assets/images/execom-mem/Devanarayanan.png';
 
@@ -29,7 +29,7 @@ import saniyaImg from '../assets/images/execom-mem/Saniya.png';
 import mariaImg from '../assets/images/execom-mem/MARIa.png';
 import nathanImg from '../assets/images/execom-mem/Nathan.png';
 import sameenImg from '../assets/images/execom-mem/Sameen.png';
-import viswanathaImg from '../assets/images/execom-mem/viswanatha.png';
+import viswanathaImg from '../assets/images/execom-mem/Viswanatha.png';
 import nehaImg from '../assets/images/execom-mem/Neha.png';
 import gregoryImg from '../assets/images/execom-mem/Gregory.png';
 import akshayaImg from '../assets/images/execom-mem/Akshaya.png';
