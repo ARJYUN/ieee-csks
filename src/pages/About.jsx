@@ -1,15 +1,17 @@
 import React from 'react';
 import teamImg from '../assets/images/team.png';
-import proExecomImg from '../assets/images/professional-execom.png';
-import sltImg from '../assets/images/slt.png';
-import gsacImg from '../assets/images/gsac.png';
+import proExecomImg from '../assets/images/professional-execom.jpeg';
+import sltImg from '../assets/images/slt.jpeg';
+import gsacImg from '../assets/images/gsac.jpeg';
 import volunteerImg from '../assets/images/volunteer-team.jpg';
 
 // Legacy Members
+import Sarju from '../assets/images/execom-mem/SARJU.png';
 import DrDeepthi from '../assets/images/execom-mem/DrDeepthi.png';
 import DrVishnukumar from '../assets/images/execom-mem/DrVishnukumar.png';
 import Srinivasan from '../assets/images/execom-mem/Srinivasan.png';
 import Senthilkumar from '../assets/images/execom-mem/Senthilkumar.png';
+import Sreehari from '../assets/images/execom-mem/Sreehari.png';
 import Nathan from '../assets/images/execom-mem/Nathan.png';
 import Devanarayanan from '../assets/images/execom-mem/Devanarayanan.png';
 import Chethana from '../assets/images/execom-mem/Chethana.png';
@@ -36,7 +38,7 @@ const About = () => {
         {/* Text Section */}
         <div className="w-full lg:flex-1">
           <p className="text-base lg:text-lg text-gray-800 leading-relaxed text-justify">
-            The IEEE Computer Society is the world’s leading membership organization dedicated to computer science and technology. Serving more than 60,000 members, the IEEE Computer Society is the trusted information, networking, and career-development source for a global community of technology leaders that includes researchers, educators, software engineers, IT professionals, employers, and students. The IEEE Computer Society Kerala Chapter has 145 professional members and 2051 student members. Winner of IEEE CS(Global) Outstanding Chapter Award '2018 and Early Career Professionals Engagement in Outstanding Chapter Award Program 2022.
+            The IEEE Computer Society is the world’s leading membership organization dedicated to computer science and technology. Serving more than 60,000 members, the IEEE Computer Society is the trusted information, networking, and career-development source for a global community of technology leaders that includes researchers, educators, software engineers, IT professionals, employers, and students. The IEEE Computer Society Kerala Chapter has 104 professional members and 1681 student members. Winner of IEEE CS(Global) Outstanding Chapter Award '2018 and Early Career Professionals Engagement in Outstanding Chapter Award Program 2022.
           </p>
         </div>
       </div>
@@ -105,11 +107,11 @@ const About = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center mb-8">
             {[
+              { img: Sarju, name: "Prof. Sarju S", year: "2025-2026" },
               { img: DrDeepthi, name: "Dr. Deepthi Sasidharan", year: "2024-2025" },
               { img: DrVishnukumar, name: "Dr. Vishnukumar S", year: "2022-2023" },
               { img: Srinivasan, name: "Mr. Srinivasan Ravindran", year: "2020-2021" },
               { img: Senthilkumar, name: "Mr. Senthilkumar KB", year: "2018-2019" },
-              { img: Srinivasan, name: "Mr. Srinivasan Ravindran", year: "2017" },
             ].map((item, index) => (
               <div key={index} className="flex flex-col items-center text-center">
                 <img
@@ -140,11 +142,11 @@ const About = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center mb-8">
             {[
+              { img: Sreehari, name: "Sreehari S", year: "2026" },
               { img: Nathan, name: "Nathan Jose V", year: "2025" },
               { img: Devanarayanan, name: "Devanarayanan S V", year: "2024" },
               { img: Chethana, name: "Chethana Raj T", year: "2023" },
-              { img: Gokul, name: "Gokul C M", year: "2022" },
-              { img: Bhadra, name: "Bhadra Jayakumar", year: "2021" },
+              { img: Gokul, name: "Gokul C M", year: "2022" }
             ].map((item, index) => (
               <div key={index} className="flex flex-col items-center text-center">
                 <img

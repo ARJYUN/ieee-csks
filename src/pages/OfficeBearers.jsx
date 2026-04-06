@@ -1,143 +1,134 @@
 import React from 'react';
 
 // Import Images
-import deepthiImg from '../assets/images/execom-mem/DrDeepthi.png';
 import sarjuImg from '../assets/images/execom-mem/SARJU.png';
-import akhilImg from '../assets/images/execom-mem/AKHIL.png';
+import mahalingamImg from '../assets/images/execom-mem/mahalingam.png';
+import VishnuRajanImg from '../assets/images/execom-mem/VishnuRajan.png';
 import nayanaImg from '../assets/images/execom-mem/nayana.png';
+import deepthiImg from '../assets/images/execom-mem/DrDeepthiC.png';
 import vishnuImg from '../assets/images/execom-mem/VISHNUKUMAR.png';
-import bijoyImg from '../assets/images/execom-mem/BIJOY.png';
+import vaishakhImg from '../assets/images/execom-mem/vaishakh.png';
 import satheeshImg from '../assets/images/execom-mem/SATHEESH.png';
-import janajithImg from '../assets/images/execom-mem/JANAJITH.png';
-import aliaImg from '../assets/images/execom-mem/ALIA.png';
-import jyothikaImg from '../assets/images/execom-mem/JYOTHIKA.png';
+import devanarayananImg from '../assets/images/execom-mem/Devanarayanan.png';
 
 // SLT Imports
-import nathanImg from '../assets/images/execom-mem/Nathan.png';
-import sameenImg from '../assets/images/execom-mem/sameen.png';
-import brigitImg from '../assets/images/execom-mem/brigit.png';
-import afrahImg from '../assets/images/execom-mem/afrah.png';
-import asiyaImg from '../assets/images/execom-mem/asiya.png';
-import vishnuSltImg from '../assets/images/execom-mem/vishnu.png';
-import anuImg from '../assets/images/execom-mem/anu.png';
-import vasifImg from '../assets/images/execom-mem/vasif.png';
-import vaishnavImg from '../assets/images/execom-mem/vaishnav.png';
-import afreenImg from '../assets/images/execom-mem/afreen.png';
-import adarshImg from '../assets/images/execom-mem/adarsh.png';
-import nehaImg from '../assets/images/execom-mem/neha.png';
+import sreehariImg from '../assets/images/execom-mem/Sreehari.png';
+import aravindImg from '../assets/images/execom-mem/Aravind.png';
+import abhiramImg from '../assets/images/execom-mem/Abhiram.png';
+import parvathyImg from '../assets/images/execom-mem/Parvathy.png';
+import asiyaImg from '../assets/images/execom-mem/Asiya.png';
+import abhinavImg from '../assets/images/execom-mem/Abhinav.png';
+import alwinImg from '../assets/images/execom-mem/Alwin.png';
+import gauriImg from '../assets/images/execom-mem/Gauri.png';
+import arjunImg from '../assets/images/execom-mem/Arjun.png';
+import ananthaImg from '../assets/images/execom-mem/Anantha.png';
+import adinathImg from '../assets/images/execom-mem/Adinath.png';
+import saniyaImg from '../assets/images/execom-mem/Saniya.png';
 
 // GSAC Imports
-import chethanaImg from '../assets/images/execom-mem/Chethana.png';
-import devanarayananImg from '../assets/images/execom-mem/Devanarayanan.png';
-import sreelakshmiImg from '../assets/images/execom-mem/SREELAKSHMI.png';
 import mariaImg from '../assets/images/execom-mem/MARIa.png';
-import abhiramiImg from '../assets/images/execom-mem/ABHIRAMI.png';
-import hafisImg from '../assets/images/execom-mem/haifs.png';
-import albinImg from '../assets/images/execom-mem/albin.png';
-import vishnuVImg from '../assets/images/execom-mem/vishnu v.png';
-import thejalImg from '../assets/images/execom-mem/thejal.png';
-import karthikaImg from '../assets/images/execom-mem/karthika.png';
-import sagarImg from '../assets/images/execom-mem/sagar.png';
+import nathanImg from '../assets/images/execom-mem/Nathan.png';
+import sameenImg from '../assets/images/execom-mem/Sameen.png';
+import viswanathaImg from '../assets/images/execom-mem/viswanatha.png';
+import nehaImg from '../assets/images/execom-mem/Neha.png';
+import gregoryImg from '../assets/images/execom-mem/Gregory.png';
+import akshayaImg from '../assets/images/execom-mem/Akshaya.png';
 
 const OfficeBearers = () => {
   const professionalExecom = [
     {
-      img: deepthiImg,
-      name: "Dr. DEEPTHI SASIDHARAN",
-      role: "CHAIR",
-      college: "GECBH"
-    },
-    {
       img: sarjuImg,
-      name: "Prof. SARJU S",
-      role: "VICE CHAIR",
+      name: "PROF. SARJU S",
+      role: "CHAIRPERSON",
       college: "SJCET"
     },
     {
-      img: akhilImg,
-      name: "Mr. AKHIL RAJ",
+      img: mahalingamImg,
+      name: "DR. MAHALINGAM P R",
+      role: "VICE CHAIRPERSON",
+      college: "InApp"
+    },
+    {
+      img: VishnuRajanImg,
+      name: "DR. VISHNU RAJAN",
       role: "SECRETARY",
-      college: "EQUIPO HEALTH INC."
+      college: "INTERSHALA"
     },
     {
       img: nayanaImg,
-      name: "Ms. NAYANA S",
+      name: "MS. NAYANA S",
       role: "TREASURER",
       college: "SADA"
     },
     {
+      img: deepthiImg,
+      name: "DR. DEEPTHI SASIDHARAN",
+      role: "CHAPTER ADVISOR",
+      college: "GECBH"
+    },
+    {
       img: vishnuImg,
-      name: "Dr. VISHNUKUMAR S",
+      name: "DR. VISHNUKUMAR S",
       role: "CHAPTER ADVISOR",
       college: "CUSAT"
     },
     {
-      img: bijoyImg,
-      name: "Dr. BIJOY A JOSE",
-      role: "INDUSTRY RELATIONS ADVISOR",
-      college: "CUSAT"
+      img: vaishakhImg,
+      name: "MR. VAISHAKH SURESH",
+      role: "JNT. SECRETARY INDUSTRY RELATIONS",
+      college: "MYGATE"
     },
     {
       img: satheeshImg,
-      name: "Dr. SATHEESH KUMAR",
-      role: "JOINT SECRETARY ACADEMIA",
+      name: "DR. SATHEESH KUMAR",
+      role: "JNT SECRETARY ACADEMIA",
       college: "JCET PALAKKAD"
     },
     {
-      img: janajithImg,
-      name: "Mr. JANAJITH D",
-      role: "JOINT SECRETARY YP",
-      college: "VALORIZ DIGITAL"
+      img: devanarayananImg,
+      name: "MR. DEVANARAYANAN S V",
+      role: "JNT. SECRETARY YP",
+      college: "GADS LLP"
     },
     {
-      img: aliaImg,
-      name: "Ms. ALIA SHIRAZ",
-      role: "JS KOCHI HUB",
-      college: "THINKPALM"
-    },
-    {
-      img: jyothikaImg,
-      name: "Ms. JYOTHIKA NITHIN",
-      role: "JS MALABAR HUB",
-      college: "KHYAAL INDIA"
+      img: mariaImg,
+      name: "MS. MARIA TRESA BINU",
+      role: "CHAIRPERSON, GSAC",
+      college: "EY"
     }
   ];
 
   const studentLeadership = [
-    { img: nathanImg, name: "NATHAN JOSE V", role: "STUDENT REPRESENTATIVE", college: "CECK" },
-    { img: sameenImg, name: "SAMEEN SARDAR S", role: "TECHNICAL COORDINATOR", college: "MCET" },
-    { img: brigitImg, name: "BRIGIT THOMAS", role: "ECC", college: "SCET" },
-    { img: afrahImg, name: "AFRAH QUAMAR", role: "WIC", college: "CEC" },
+    { img: sreehariImg, name: "SREEHARI S", role: "STUDENT REPRESENTATIVE", college: "GECK" },
+    { img: aravindImg, name: "ARAVIND R KRISHNAN", role: "TECHNICAL COORDINATOR", college: "CCET" },
+    { img: abhiramImg, name: "ABHIRAM CHANDRASENAN", role: "ECC", college: "CEKGR" },
+    { img: parvathyImg, name: "PARVATHY V NAIR", role: "WIC", college: "SJCET" },
     { img: asiyaImg, name: "ASIYA SHAJI", role: "TRAVANCORE HSR", college: "CEP" },
-    { img: vishnuSltImg, name: "VISHNU GOPAL", role: "KOCHI HSR", college: "SCET" },
-    { img: anuImg, name: "ANU RAJ", role: "MALABAR HSR", college: "GECPKD" },
-    { img: vasifImg, name: "VASIF ABDULLA P", role: "WEBMASTER", college: "MEA" },
-    { img: vaishnavImg, name: "VAISHNAV S L", role: "WEBMASTER", college: "GECK" },
-    { img: afreenImg, name: "AFREEN M H", role: "EIC", college: "SCET" },
-    { img: adarshImg, name: "ADARSH J", role: "SIG AI LEAD", college: "CEA" },
-    { img: nehaImg, name: "NEHA MARIAM SUNNY", role: "MDC", college: "GECK" }
+    { img: abhinavImg, name: "ABHINAV S MENON", role: "KOCHI HSR", college: "CCET" },
+    { img: alwinImg, name: "ALWIN REJI", role: "MALABAR HSR", college: "GECK" },
+    { img: gauriImg, name: "GAUIRI SHANKAR G NAIR", role: "WEBMASTER", college: "GECPKD" },
+    { img: arjunImg, name: "ARJUN K", role: "WEBMASTER", college: "NSSCE" },
+    { img: ananthaImg, name: "ANANTHA PADMANABHAN P", role: "EIC", college: "MCET" },
+    { img: adinathImg, name: "ADINATH M C", role: "SIG AI LEAD", college: "CUSAT" },
+    { img: saniyaImg, name: "SANIYA JOBY", role: "MDC", college: "RSET" }
   ];
 
   const gsacMembers = [
-    { img: bijoyImg, name: "Dr. BIJOY A JOSE", role: "ADVISOR", college: "" },
-    { img: chethanaImg, name: "CHETHANA RAJ T", role: "CHAIR", college: "" },
-    { img: devanarayananImg, name: "DEVANARAYANAN S V", role: "VICE CHAIR", college: "" },
-    { img: sreelakshmiImg, name: "SREELAKSHMI AR", role: "SECRETARY", college: "" },
-    { img: mariaImg, name: "MARIA TRESA BINU", role: "OUTREACH COORDINATOR", college: "" },
-    { img: abhiramiImg, name: "ABHIRAMI P", role: "MEMBERSHIP ENGAGEMENT COORDINATOR", college: "" },
-    { img: hafisImg, name: "HAFIS C P", role: "MALABAR HUB COORDINATOR", college: "" },
-    { img: albinImg, name: "ALBIN B THOMAS", role: "MALABAR HUB COORDINATOR", college: "" },
-    { img: vishnuVImg, name: "VISHNU V", role: "KOCHI HUB COORDINATOR", college: "" },
-    { img: thejalImg, name: "THEJAL MARIAM ABRAHAM", role: "KOCHI HUB COORDINATOR", college: "" },
-    { img: karthikaImg, name: "KARTHIKA SANKAR U", role: "TRAVANCORE HUB COORDINATOR", college: "" },
-    { img: sagarImg, name: "SAGAR S", role: "TRAVANCORE HUB COORDINATOR", college: "" }
+    { img: VishnuRajanImg, name: "DR. VISHNU RAJAN", role: "ADVISOR", college: "" },
+    { img: mariaImg, name: "MS. MARIA TRESA BINU", role: "CHAIRPERSON", college: "" },
+    { img: nathanImg, name: "MR. NATHAN JOSE V", role: "VICE CHAIRPERSON", college: "" },
+    { img: sameenImg, name: "MR. SAMEEN SARDAR S", role: "SECRETARY", college: "" },
+    { img: viswanathaImg, name: "MR. VISWANATHA KARTHA", role: "INITIATIVE LEAD", college: "" },
+    { img: nehaImg, name: "MS. NEHA SUNNY", role: "COMMUNITY ENGAGEMENT LEAD", college: "" },
+    { img: gregoryImg, name: "MR. GREGORY KURIEN", role: "PROGRAM COORDINATOR", college: "" },
+    { img: akshayaImg, name: "MS. AKSHAYA KRISHNA R", role: "OUTREACH COORDINATOR", college: "" }
   ];
 
   return (
     <div className="container mx-auto px-4 py-8 lg:py-16 font-poppins">
       {/* Page Title */}
       <h1 className="text-[36px] font-bold text-[#d98a12] mb-12 text-center">
-        Office Bearers 2025
+        Office Bearers 2026
       </h1>
 
       {/* Professional Execom Section */}
@@ -186,7 +177,7 @@ const OfficeBearers = () => {
           {studentLeadership.map((member, index) => (
             <div
               key={index}
-              className="w-[214px] h-[309px] relative rounded-xl overflow-hidden bg-gradient-to-b from-white via-[#ffe4b0] to-[#ffcb7c] border-t-[3px] border-r-[3px] border-t-[#d98a12] border-r-[#d98a12] border-b border-l border-gray-100 shadow-sm flex flex-col"
+              className="w-[224px] h-[309px] relative rounded-xl overflow-hidden bg-gradient-to-b from-white via-[#ffe4b0] to-[#ffcb7c] border-t-[3px] border-r-[3px] border-t-[#d98a12] border-r-[#d98a12] border-b border-l border-gray-100 shadow-sm flex flex-col"
             >
               <div className="p-4 z-10 text-left">
                 <h3 className="text-[13px] font-bold text-black uppercase leading-tight mb-1">

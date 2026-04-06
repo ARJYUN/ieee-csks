@@ -68,7 +68,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-12 text-center">
           <p className="text-[12px] font-normal text-black">
-            Copyright © 2025 IEEE CSKS | Crafted by Web Team of IEEE CSKS
+            Copyright © 2026 IEEE CSKS | Crafted by Web Team of IEEE CSKS
           </p>
         </div>
       </div>

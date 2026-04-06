@@ -87,13 +87,13 @@ const Event = () => {
       id: 3,
       image: informatykaImg,
       title: "Informatyka 5.0",
-      description: "Slash Key 3.0 is a 30-hour flagship hackathon organized by the IEEE Computer Society Kerala Chapter (CSKS). Designed to ignite innovation and problem-solving, it brings together the brightest minds to collaborate, code, and create impactful solutions. With intense coding sessions, mentorship, and a competitive yet collaborative environment, Slash Key 3.0 pushes participants to transform ideas into reality."
+      description: "Informatyka 5.0 is a dynamic and innovation-driven flagship event conducted by the IEEE Computer Society Kerala Chapter, designed to inspire creativity, technical excellence, and collaborative problem-solving among aspiring developers and tech enthusiasts. Bringing together passionate minds from diverse domains, the event fosters an environment where ideas evolve into impactful solutions through intensive sessions, hands-on challenges, and expert mentorship."
     },
     {
       id: 4,
       image: eleverImg,
       title: "Elever 5.0",
-      description: "Slash Key 3.0 is a 30-hour flagship hackathon organized by the IEEE Computer Society Kerala Chapter (CSKS). Designed to ignite innovation and problem-solving, it brings together the brightest minds to collaborate, code, and create impactful solutions. With intense coding sessions, mentorship, and a competitive yet collaborative environment, Slash Key 3.0 pushes participants to transform ideas into reality."
+      description: "Elever 5.0 is the fifth iteration of the flagship leadership and technical competition organized by the IEEE Computer Society Kerala Chapter (CSKS). It is a high-energy competition designed to foster, challenge, and showcase the talents of IEEE student members across Kerala, featuring multiple tasks leading up to a finale."
     }
   ];
 

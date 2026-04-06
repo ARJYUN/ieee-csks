@@ -251,7 +251,7 @@ const Home = () => {
             source for a global community of technology leaders that includes
             researchers, educators, software engineers, IT professionals,
             employers, and students. The IEEE Computer Society Kerala
-            Chapter has 145 professional members and 2051 student members.
+            Chapter has 104 professional members and 1681 student members.
             Winner of IEEE CS(Global) Outstanding Chapter Award 2018 and
             Early Career Professionals Engagement in Outstanding Chapter
             Award Program 2022.
@@ -386,7 +386,7 @@ const Home = () => {
             The IEEE Computer Society Kerala Chapter conducts engaging Membership Development sessions both online and offline to inspire students and help them discover the opportunities, resources, and professional growth that come with being part of IEEE Computer Society. These sessions aim to empower students to enhance their skills, expand their network, and grow personally and professionally within the global tech community.
           </p>
           <a
-            href="https://tinyurl.com/md-sessions"
+            href="https://tinyurl.com/MD-Sessions-2026"
             target="_blank"
             rel="noopener noreferrer"
             className="w-[141px] h-[45px] border border-[#faa41a] rounded-[27px] flex items-center justify-center text-[18px] font-medium text-black hover:bg-[#faa41a] hover:text-white transition-all duration-300 mx-auto"
