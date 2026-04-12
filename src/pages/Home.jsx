@@ -193,9 +193,9 @@ const Home = () => {
           <div className="absolute bottom-0 right-0 bg-white rounded-tl-[50px] flex gap-12 items-center justify-center shadow-lg hidden md:flex w-[590px] h-[172px]">
             <Counter
 
-              end={4060}
+              end={1681}
               label="Student Members"
-              suffix="+"
+              suffix=""
               icon={<img src={globeIcon} alt="Student Members" className="w-[40px] h-[40px]" />}
             />
             <Counter
@@ -205,9 +205,9 @@ const Home = () => {
               icon={<img src={peopleIcon} alt="Student Chapter" className="w-[52px] h-[36px]" />}
             />
             <Counter
-              end={37}
+              end={2}
               label="Events"
-              suffix="+"
+              suffix=""
               icon={<img src={dateIcon} alt="Events" className="w-[35px] h-[41px]" />}
             />
             <Counter

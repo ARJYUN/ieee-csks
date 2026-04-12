@@ -1,0 +1,3 @@
+﻿src/assets/images/execom-mem/asiya.png|Asiya.png
+src/assets/images/execom-mem/neha.png|Neha.png
+src/assets/images/execom-mem/sameen.png|Sameen.png
