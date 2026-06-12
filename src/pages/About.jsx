@@ -3,7 +3,7 @@ import teamImg from '../assets/images/team.png';
 import proExecomImg from '../assets/images/professional-execom.jpeg';
 import sltImg from '../assets/images/slt.jpeg';
 import gsacImg from '../assets/images/gsac.jpeg';
-import volunteerImg from '../assets/images/volunteer-team.jpg';
+import volunteerImg from '../assets/images/volunteer-team.jpeg';
 
 // Legacy Members
 import Sarju from '../assets/images/execom-mem/SARJU.png';
